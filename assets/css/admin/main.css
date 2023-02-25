@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src:url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.eot);
+    src:url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.woff2) format("woff2"),url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.woff) format("woff"),url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.ttf) format("truetype"),url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.svg#fontawesome) format("svg")}
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-style: normal; 
+}
+
+.fa-caret-down:before {
+  content: "\f0d7"; }
+
+.fa-trash:before {
+  content: "\f1f8"; }
+
+.fa-edit:before {
+  content: "\f044"; }
+
+.fa-times:before {
+  content: "\f00d"; }
+
+.fa-print:before {
+  content: "\f02f"; }
+
+body {
+  background-color: #f3f3f3;
+}
+
+table {
+  font-size: 14px;
+}
+
+td.aksi {
+  width: 94px;
+}
+
+td.aksi a {
+  display: inline-block;
+  font-size: 11px;
+}
+
+.select2-selection__arrow {
+	height: 34px !important;
+}
+
+.select2-selection__rendered {
+  line-height: 34px !important;
+}
+
+.select2-selection--single{
+	height: 38px !important;
+}

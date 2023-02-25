@@ -1,0 +1,31 @@
+.faktur {
+  width: 820px;
+}
+
+.faktur__title h2 {
+  text-align: center;
+}
+
+.info__group, .alamat__group {
+  display: flex;
+  margin-top: 10px;
+}
+
+.info__group table, .alamat__group table {
+  width: 300px;
+}
+
+.alamat__group table:nth-child(2),
+.info__group table:nth-child(2) {
+  margin-left: 80px;
+}
+
+.faktur__main table {
+  margin-top: 10px; 
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.faktur__main table td {
+  padding: 2px 6px;
+}
